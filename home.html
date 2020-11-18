@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/insta.svg">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="input-search">
+                <input type="text" placeholder="검색">
+            </div>
+            <nav class="navi">
+                <ul class="navi-list">
+                    <li class="navi-item"><a href="home.html"><i class="fas fa-home"></i></a></li>
+                    <li class="navi-item"><a href="message.html"><i class="far fa-paper-plane"></i></a></li>
+                    <li class="navi-item"><a href="popular.html"><i class="far fa-compass"></i></a></li>
+                    <li class="navi-item"><a href="" id="followBtn"><i class="far fa-heart"></i></a></li>
+                    <li class="navi-item">
+                        <a href="profile.html">
+                            <span class="my-account">
+                                <img src="images/profile.jpeg">
+                                <svg viewbox="0 0 110 110">
+                                    <circle cx="55" cy="55" r="53" />
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container">
+            <article class="friend-list">
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/k1.jpg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Pray._.</div>
+                </div>
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/f-list4.jpg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Doxxpa</div>
+                </div>
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/f-list2.jpg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Woooolf</div>
+                </div>
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/f-list5.jpg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Marine</div>
+                </div>
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/f-list1.jpg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Frame</div>
+                </div>
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/f-list3.jpg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Turtle-</div>
+                </div>
+
+                <div class="friend-list__item">
+                    <div>
+                        <img src="images/profile.jpeg" alt="">
+                        <svg viewbox="0 0 110 110">
+                            <circle cx="55" cy="55" r="53" />
+                        </svg>
+                    </div>
+                    <div>Tae_w__w</div>
+                </div>
+            </article>
+            <article class="story-list">
+                <div class="story-list__item">
+                    <div class="sl__item__header">
+                        <div>
+                            <img src="images/profile.jpeg" alt="">
+                            <svg viewbox="0 0 110 110">
+                                <circle cx="55" cy="55" r="53" />
+                            </svg>
+                        </div>
+                        <div>Jxxva._.SP</div>
+                        <div><button onclick="popup();"><i class="fas fa-ellipsis-h"></i></button></div>
+                    </div>
+                    <div class="sl__item__img">
+                        <img src="images/home3.jpg" alt="">
+                    </div>
+                    <div class="sl__item__contents">
+                        <div class="sl__item__contents__icon">
+                            <button onclick="clickBtn()"><i class="far fa-heart"></i></button>
+                            <button><i class="far fa-comment"></i></button>
+                            <button><i class="far fa-paper-plane"></i></button>
+                            <button onclick="clickBtn()"><i class="far fa-bookmark"></i></button>
+                        </div>
+                        <div class="sl__item__contents__content">
+                            <p>내용내용내용내용</p>
+                            <button>댓글 123개 모두 보기</button>
+                            <ul class="comment">
+                                <li><span>아이디</span>댓글댓글댓글댓글 </li>
+                                <li><span>아이디</span>댓글댓글댓글댓글 </li>
+                            </ul>
+                            <div class="sl__item__contents__timeline">2일 전</div>
+                        </div>
+                    </div>
+                    <div class="sl__item__input">
+                        <input type="text" placeholder="댓글 달기...">
+                        <button>게시</button>
+                    </div>
+                </div>
+                <div class="story-list__item">
+                    <div class="sl__item__header">
+                        <div>
+                            <img src="images/f-list4.jpg" alt="">
+                            <svg viewbox="0 0 110 110">
+                                <circle cx="55" cy="55" r="53" />
+                            </svg>
+                        </div>
+                        <div>Doxxpa</div>
+                        <div><button onclick="popup();"><i class="fas fa-ellipsis-h"></i></button></div>
+                    </div>
+                    <div class="sl__item__img">
+                        <img src="images/home2.jpg" alt="">
+                    </div>
+                    <div class="sl__item__contents">
+                        <div class="sl__item__contents__icon">
+                            <button onclick="clickBtn()"><i class="far fa-heart"></i></button>
+                            <button><i class="far fa-comment"></i></button>
+                            <button><i class="far fa-paper-plane"></i></button>
+                            <button onclick="clickBtn()"><i class="far fa-bookmark"></i></button>
+                        </div>
+                        <div class="sl__item__contents__content">
+                            <p>내용내용내용내용</p>
+                            <button>댓글 123개 모두 보기</button>
+                            <ul class="comment">
+                                <li><span>아이디</span>댓글댓글댓글댓글 </li>
+                                <li><span>아이디</span>댓글댓글댓글댓글 </li>
+                            </ul>
+                            <div class="sl__item__contents__timeline">2일 전</div>
+                        </div>
+                    </div>
+                    <div class="sl__item__input">
+                        <input type="text" placeholder="댓글 달기...">
+                        <button>게시</button>
+                    </div>
+                </div>
+                <div class="story-list__item">
+                    <div class="sl__item__header">
+                        <div>
+                            <img src="images/home1.jpg" alt="">
+                            <svg viewbox="0 0 110 110">
+                                <circle cx="55" cy="55" r="53" />
+                            </svg>
+                        </div>
+                        <div>HideOnBush</div>
+                        <div><button onclick="popup();"><i class="fas fa-ellipsis-h"></i></button></div>
+                    </div>
+                    <div class="sl__item__img">
+                        <img src="images/home1.jpg" alt="">
+                    </div>
+                    <div class="sl__item__contents">
+                        <div class="sl__item__contents__icon">
+                            <button onclick="clickBtn()"><i class="far fa-heart"></i></button>
+                            <button><i class="far fa-comment"></i></button>
+                            <button><i class="far fa-paper-plane"></i></button>
+                            <button onclick="clickBtn()"><i class="far fa-bookmark"></i></button>
+                        </div>
+                        <div class="sl__item__contents__content">
+                            <p>내용내용내용내용</p>
+                            <button>댓글 123개 모두 보기</button>
+                            <ul class="comment">
+                                <li><span>아이디</span>댓글댓글댓글댓글 </li>
+                                <li><span>아이디</span>댓글댓글댓글댓글 </li>
+                            </ul>
+                            <div class="sl__item__contents__timeline">2일 전</div>
+                        </div>
+                    </div>
+                    <div class="sl__item__input">
+                        <input type="text" placeholder="댓글 달기...">
+                        <button>게시</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <div class="modal-container">
+        <div class="modal">
+            <button>신고</button>
+            <button>팔로우 취소</button>
+            <button id="cancel" onclick="closePopup()">취소</button>
+        </div>
+    </div>
+
+    <div class="modal-heart">
+        <div class="follow">
+            <div class="follow__item">
+                <div class="follow__img"><img src="images/profile.jpeg" alt=""></div>
+                <div class="follow__text">
+                    <h2>아이디</h2>
+                    <p>님이 회원을 팔로우하기 시작했습니다. <span>2주</span></p>
+                </div>
+                <div class="follow__btn"><button>팔로우</button></div>
+            </div>
+            <div class="follow__item">
+                <div class="follow__img"><img src="images/profile.jpeg" alt=""></div>
+                <div class="follow__text">
+                    <h2>아이디</h2>
+                    <p>님이 회원을 팔로우하기 시작했습니다. <span>2주</span></p>
+                </div>
+                <div class="follow__btn"><button>팔로우</button></div>
+            </div>
+            <div class="follow__item">
+                <div class="follow__img"><img src="images/profile.jpeg" alt=""></div>
+                <div class="follow__text">
+                    <h2>아이디</h2>
+                    <p>님이 회원을 팔로우하기 시작했습니다. <span>2주</span></p>
+                </div>
+                <div class="follow__btn"><button>팔로우</button></div>
+            </div>
+            <div class="follow__item">
+                <div class="follow__img"><img src="images/profile.jpeg" alt=""></div>
+                <div class="follow__text">
+                    <h2>아이디</h2>
+                    <p>님이 회원을 팔로우하기 시작했습니다. <span>2주</span></p>
+                </div>
+                <div class="follow__btn"><button>팔로우</button></div>
+            </div>
+            <div class="follow__item">
+                <div class="follow__img"><img src="images/profile.jpeg" alt=""></div>
+                <div class="follow__text">
+                    <h2>아이디</h2>
+                    <p>님이 회원을 팔로우하기 시작했습니다. <span>2주</span></p>
+                </div>
+                <div class="follow__btn"><button>팔로우</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function popup() {
+            document.querySelector('.modal-container').style.display = "flex";
+        }
+        function closePopup() {
+            document.querySelector('.modal-container').style.display = "none";
+        }
+        document.querySelector('.modal-container').addEventListener('click', (e) => {
+            if (e.target.tagName === "DIV") {
+                document.querySelector('.modal-container').style.display = "none";
+            }
+        });
+        function clickBtn() {
+            if (event.target.tagName === "I" || event.target.tagName === "BUTTON") {
+                let _buttonI = event.target.tagName === "I" ? event.target : event.target.children[0];
+                if (_buttonI.classList.contains("far")) {
+                    _buttonI.classList.add("fas");
+                    _buttonI.classList.add("active");
+                    _buttonI.classList.remove("far");
+                } else {
+                    _buttonI.classList.remove("fas");
+                    _buttonI.classList.remove("active");
+                    _buttonI.classList.add("far");
+                }
+            }
+        }
+    </script>
+    <script src="js/follow.js"></script>
+</body>
+
+</html>
